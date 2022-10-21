@@ -1,11 +1,11 @@
-import kivy
-from kivy.app import App
-from kivy.uix.gridlayout import GridLayout
-from kivy.uix.label import Label
-from kivy.uix.boxlayout import BoxLayout
-from kivy.uix.button import Button
+# import kivy
+# from kivy.app import App
+# from kivy.uix.gridlayout import GridLayout
+# from kivy.uix.label import Label
+# from kivy.uix.boxlayout import BoxLayout
+# from kivy.uix.button import Button
 
-kivy.require("1.9.1")
+# kivy.require("1.9.1")
 
 
 from BeautifulSoup import BeautifulSoup

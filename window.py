@@ -1,5 +1,5 @@
 import cart as car
-import display as dis
+# import display as dis
 
 
 import kivy
