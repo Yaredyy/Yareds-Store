@@ -8,7 +8,7 @@
 # kivy.require("1.9.1")
 
 
-from BeautifulSoup import BeautifulSoup
+from bs4 import BeautifulSoup
 import urllib2
 import re   
 
