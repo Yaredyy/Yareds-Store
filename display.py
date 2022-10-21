@@ -9,10 +9,10 @@
 
 
 from bs4 import BeautifulSoup
-import urllib2
+import urllib3 as url
 import re   
 
-html_page = urllib2.urlopen("https://img-cdn.inc.com/image/upload/w_1920,h_1080,c_fill/images/panoramic/getty_1025739950_ddrzvl.jpg")
+html_page = url.urlopen("https://img-cdn.inc.com/image/upload/w_1920,h_1080,c_fill/images/panoramic/getty_1025739950_ddrzvl.jpg")
 soup = BeautifulSoup(html_page)
 images = []
 for img in soup.findAll('img'):
